@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFBF69;
+    height: 80px;
+    padding: 0 32px;
+}
+
+.site-header__logo {
+    font-family: 'roboto', sans-serif;
+    color: #1B2020;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.site-header__nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'roboto', sans-serif;
+    color: #1B2020;
+    font-size: 1rem;
+}
+
+.site-header__nav-item {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.hero-banner {
+    height: 900px;
+    width: 100%;
+    background-image: url('images/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-banner__text-block {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    padding: 20% 0 0 10%;
+}
+
+.hero-banner__title {
+    font-family: 'roboto', sans-serif;
+    color: #ffff;
+    font-size: 8rem;
+    font-weight: 900;
+}
+
+.hero-banner__description {
+    font-family: 'roboto', sans-serif;
+    color: #ffff;
+    font-size: 1.6rem;
+}
+
+.hero-banner__button {
+    height: 45px;
+    width: 150px;
+    background: #CBF3F0;
+    border: none;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 90px 0;
+}
+
+.info-section__title {
+    font-family: 'roboto', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
+
+.info-section__content {
+    font-family: 'roboto', sans-serif;
+    font-size: 1rem;
+    max-width: 56%;
+    text-align: center;
+}
+
+.products-gallery {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 100%;
+    background: #CBF3F0;
+    justify-content: center;
+}
+
+.products-gallery__title {
+    font-family: 'roboto', sans-serif;
+    color: #1B2020;
+    font-size: 2rem;
+    font-weight: 900;
+    align-self: center;
+}
+
+.products-gallery__items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-card__description {
+    font-family: 'roboto', sans-serif;
+    color: #1B2020;
+    font-size: 0.8rem;
+    font-weight: 700;
+    align-self: center;
+    margin-top: 16px;
+}
+
+.product-card__button {
+    height: 32px;
+    width: 100px;
+    background: #FFBF69;
+    border: none;
+    font-family: 'roboto', sans-serif;
+    color: #1B2020;
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.game-rules {
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: 126px 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.game-rules__text-block {
+    max-width: 600px;
+    z-index: 1;
+}
+
+.game-rules__title {
+    font-family: 'roboto', sans-serif;
+    color: #1B2020;
+    font-size: 2rem;
+    font-weight: 900;
+    align-self: center;
+    margin-bottom: 16px;
+}
+
+.game-rules__content {
+    font-family: 'roboto', sans-serif;
+    color: #1B2020;
+    font-size: 1.14rem;
+    align-self: center;
+}
+
+.game-rules__image {
+    z-index: 1;
+    margin-left: -30%;
+}
+.game-rules__background {
+    position: absolute;
+    top: 22%;
+}
+
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333333;
+    height: 80px;
+    padding: 0 45px;
+    color: #ffff;
+}
+
+.site-footer__brand {
+    font-family: 'roboto', sans-serif;
+    color: #ffff;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.site-footer__link {
+    font-family: 'roboto', sans-serif;
+    font-size: 0.8rem;
+}
